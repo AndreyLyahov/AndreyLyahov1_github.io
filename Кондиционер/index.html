@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Кондиционер</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- bxSlider Javascript file -->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <!-- bxSlider CSS file -->
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+  </head>
+
+
+  <body>
+    <header>
+      <div class="header-contacts">
+        <div class="adress"><i class="fa fa-map-marker" aria-hidden="true"></i>   Украина, 49038, г.Днепропетровск, ул. Рогалева, 12б</div>
+        <div class="email"><i class="fa fa-envelope-o" aria-hidden="true"><table border="1px" width="1px" height="20px"></table></i>   sssss@vega.com.ua</div>
+        <div class="phonenumber"><i class="fa fa-mobile" aria-hidden="true"></i>   (056) 888-777-1; (067) 777-65-31</div>
+        <div class="lang">
+          <button type="button" class="btn btn-default">UA</button>
+          <button type="button" class="btneng btn btn-default">ENG</button>
+          <button type="button" class="btn btn-default">RU</button>
+        </div>
+        
+      </div>
+      <div class="logo"><h1>logotype</h1></div>
+
+
+      <div class="menu">
+        <nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="glav"><a href="#">Главная</a></li>
+        <li class="glav1"><a href="#">Каталог</a></li>
+        <li class="glav1"><a href="#">Реализованные проекты</a></li>
+        <li class="glav1"><a href="#">О нас</a></li>
+        <li class="glav2"><a href="#">Контакты</a></li>        
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+      </div>
+
+
+    </header>
+
+<div class="firstslider">
+<ul class="bxslider1">
+  <li><img src="images/girl.png" /></li>
+  <li><img src="images/men.png" /></li>
+  <li><img src="images/room.png" /></li>
+ </ul>
+</div>  
+
+<script type="text/javascript">
+  $(document).ready(function(){
+  $('.bxslider1').bxSlider({
+    auto: true
+  });
+});
+</script>  
+
+
+<div class="secondslider">
+  <h2>наша продукция</h2>
+<ul class="bxslider2">
+  <li><img src="images/bx1.jpg" ><div class="zoom"><i class="fa fa-search"></i></div></li>
+  <li><img src="images/bx2.jpg"><div class="zoom"><i class="fa fa-search"></i></div></li>
+  <li><img src="images/bx1.jpg"><div class="zoom"><i class="fa fa-search"></i></div></li>
+  <li><img src="images/bx2.jpg"><div class="zoom"><i class="fa fa-search"></i></div></li>
+  <li><img src="images/bx1.jpg"><div class="zoom"><i class="fa fa-search"></i></div></li>
+  <li><img src="images/bx2.jpg"><div class="zoom"><i class="fa fa-search"></i></div></li>
+</ul>
+
+  
+</div>
+
+<script>jQuery(document).ready(function(){
+  jQuery('.bxslider2').bxSlider({
+     auto: true,
+     slideWidth: 260,
+     minSlides: 2,
+     maxSlides: 5,
+     slideMargin: 5
+        
+    
+  });
+});</script>
+
+
+<div class="partner">
+  <h2>наши партнеры</h2></div>
+<div class="partner1">  
+  <div class="electrovoz"><img src="images/partner1.png"><p><a href="http://devs.com.ua">Электровозостроение</a></p></div>
+  <div class="krruda">
+    <img src="images/partner2.png"><br><p><a href="http://www.krruda.dp.ua/">Криворожский<br> железнорудный<br>комбинат</a></p>
+  </div>
+  <div class="arcelor">
+    <img src="images/partner3.png"><p><a href="https://ukraine.arcelormittal.com/?lang=ua">АрселорМеталл<br>Кривой Рог</a></p>
+  </div>
+  <div class="pavlograd">
+    <img src="images/partner4.png"><p><a href="http://www.dtek.com/investors_and_partners/asset/pavlograd-ugol/">Павлоградуголь</a></p>
+  </div>
+  <div class="metinvest">
+    <img src="images/partner5.png" ><p><a href="https://www.metinvestholding.com/ua">Метинвест Холдинг</a></p>
+  </div>
+  <div class="zgrk">
+    <img src="images/partner6.png"><br><p><a href="http://www.zgrk.com.ua/">Запорожский<br> железнорудный<br>комбинат</a></p>
+  </div>
+  
+</div>
+
+<div class="footer">
+  <div class="footer1">
+    <div class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>   email@mail.ru</div>
+    <div class="tel"><i class="fa fa-phone" aria-hidden="true"></i>   (095) 154 44 11</div>
+    <div class="vkfb"><i class="fa fa-vk" aria-hidden="true"></i>   <i class="fa fa-facebook-official" aria-hidden="true"></i></div>
+    <div class="recall"><i class="fa fa-phone" aria-hidden="true"></i>   <a href="URL"><u>обратный звонок</u></a></div>
+    <div class="recall"><img src="images/iworks.png"></div>
+   <!--  <div class="iworks"><img src="images/iworks.png"></div> -->
+  </div>
+</div>
+
+
+
+   
+  </body>
+</html>

@@ -1,0 +1,27 @@
+@media (max-width: 1050px) {
+ .header-contacts{
+        flex-direction: column;
+        display: flex;
+        padding-left: 5px;
+        
+    }
+
+  .email {
+  	border-left: none;
+	border-right: none;
+  }
+
+  .adress, .email, .phonenumber{
+  	margin: auto;
+  }   
+}
+
+@media (max-width: 700px) {
+ .footer1{
+        height: auto;
+        flex-direction: column;
+        display: flex;
+
+    }   
+        
+ }
